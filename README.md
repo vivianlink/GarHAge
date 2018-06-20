@@ -1,7 +1,9 @@
 # GarHAge
-## a Home-Automation-friendly ESP8266-based MQTT Garage Door Controller
+## A Home-Automation-friendly ESP8266-based MQTT Garage Door Controller
 
-GarHAge allows two "dumb" garage door openers to be controlled (open/close) and report garage door status (open/closed) via MQTT.
+GarHage has two main functionalities: 
+1. Allows 2 "dumb" garage door openers to be controlled (open/close) 
+2. Report garage door status (opened/closed) via MQTT
 
 GarHAge is almost completely compatible with Home Assistant's "MQTT Cover" platform. It responds to HASS's open and close commands and reports door status to keep HASS's GUI in sync with the door state. GarHAge does not implement HASS's "stop" command (as this functionality varies between garage door openers) or "tilt" functionality. Sample HASS configuration snippets are provided in this repository to get your garage door openers connected to HASS as quickly and painlessly as possible.
 
